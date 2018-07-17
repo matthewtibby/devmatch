@@ -35,13 +35,20 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '~> 3.3.7'
+
+#Use Fontawesome for adding icons
 gem 'font-awesome-sass', '~> 5.0.13'
 gem 'jquery-rails'
 
 # Use Hirb gem for better console data presentation
 gem 'hirb', '0.7.3'
+
+# Use devise for user authentication
+gem 'devise', '4.4.3'
+gem 'sqlite3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
