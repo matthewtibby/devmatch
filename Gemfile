@@ -48,7 +48,7 @@ gem 'hirb', '0.7.3'
 
 # Use devise for user authentication
 gem 'devise', '4.4.3'
-gem 'sqlite3'
+
 
 #Use Stripe for payment processing
 gem 'stripe', '1.48.0'
