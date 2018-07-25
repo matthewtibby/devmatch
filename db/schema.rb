@@ -34,7 +34,6 @@ ActiveRecord::Schema.define(version: 2018_07_24_144919) do
     t.string "job_title"
     t.string "phone_number"
     t.string "location"
-    t.string "linkdin_url"
     t.string "contact_email"
     t.text "description"
     t.datetime "created_at", null: false
